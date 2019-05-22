@@ -124,3 +124,6 @@ let g:ctrlp_custom_ignore='node_modules\|DS_Store\|git|bower_components\|.git|vs
 " Illuminate
 let g:Illuminate_delay = 250
 hi illuminatedWord cterm=underline gui=underline
+
+" Vim Vue
+autocmd FileType vue syntax sync fromstart
