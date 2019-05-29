@@ -19,6 +19,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'w0rp/ale'
 Plug 'RRethy/vim-illuminate'
+Plug 'tpope/vim-surround'
 call plug#end()
 
 " Use deoplete.

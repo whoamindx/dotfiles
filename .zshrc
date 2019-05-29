@@ -7,7 +7,7 @@ export ZSH="/Users/whoamindx/.oh-my-zsh"
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="refined"
+ZSH_THEME="lambda-mod"
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
@@ -102,3 +102,5 @@ source $ZSH/oh-my-zsh.sh
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 # [[ -r $NVM_DIR/bash_completion ]] && . $NVM_DIR/bash_completion # This loads nvm bash_completion
+
+export EDITOR=nvim
