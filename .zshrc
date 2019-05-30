@@ -103,4 +103,10 @@ export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 # [[ -r $NVM_DIR/bash_completion ]] && . $NVM_DIR/bash_completion # This loads nvm bash_completion
 
-export EDITOR=nvim
+export EDITOR="nvim"
+
+alias gst="git status"
+alias gad="git add"
+alias gck="git checkout"
+alias rm="rm -rfv"
+
