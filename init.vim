@@ -28,6 +28,9 @@ call plug#end()
 let g:deoplete#enable_at_startup = 1
 let g:python3_host_prog = '/usr/local/bin/python3'
 
+" TernJS
+let g:tern#arguments = ["--no-port-file"]
+
 colorscheme material-monokai
 
 syntax on
@@ -193,3 +196,4 @@ endfunction
 
 command! Kwbd call s:Kwbd(1)
 nnoremap <silent> <Plug>Kwbd :<C-u>Kwbd<CR>
+
