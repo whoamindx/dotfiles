@@ -22,6 +22,7 @@ Plug 'tpope/vim-surround'
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
 Plug 'posva/vim-vue'
+Plug 'shime/vim-livedown'
 call plug#end()
 
 " Use deoplete.
