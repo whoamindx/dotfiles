@@ -26,6 +26,12 @@ Plug 'shime/vim-livedown'
 Plug 'ryanoasis/vim-devicons'
 call plug#end()
 
+" ALE
+let g:ale_fixers = {
+\  '*': ['prettier', 'eslint'],
+\}
+let g:ale_fix_on_save = 1
+
 " Use deoplete.
 let g:deoplete#enable_at_startup = 1
 let g:python3_host_prog = '/usr/local/bin/python3'
