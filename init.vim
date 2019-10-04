@@ -90,7 +90,7 @@ map <leader>z :bp<CR>
 map <leader>x :bn<CR>
 
 " Airline
-let g:airline_theme='deus'
+let g:airline_theme='night_owl'
 let g:airline#extensions#tabline#enabled=1
 let g:airline#extensions#ale#enabled=1
 let g:ale_sign_column_always=0
