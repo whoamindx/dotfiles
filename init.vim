@@ -76,6 +76,7 @@ set splitright
 
 let mapleader=","
 nmap <leader>m :NERDTreeToggle<cr>
+nmap <leader>p :NERDTreeFind<cr>
 nmap <leader>f :Ag<cr>
 nmap <leader>n :noh<cr>
 nmap <leader>o :only<cr>
@@ -134,6 +135,10 @@ let g:move_key_modifier='S'
 
 " CTRL-P
 let g:ctrlp_custom_ignore='node_modules\|DS_Store\|git|bower_components\|.git|vscode'
+let g:ctrlp_show_hidden = 1
+
+" NERDTree
+let NERDTreeShowHidden=1
 
 " Illuminate
 let g:Illuminate_delay = 250
