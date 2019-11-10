@@ -145,6 +145,7 @@ let g:Illuminate_delay = 250
 hi illuminatedWord cterm=underline gui=underline
 
 " Vim Vue
+let g:vue_pre_processors = 'detect_on_enter'
 autocmd FileType vue syntax sync fromstart
 
 
