@@ -111,3 +111,8 @@ alias gad="git add"
 alias gck="git checkout"
 alias rm="rm -rfv"
 
+
+export PATH=$(brew --prefix openvpn)/sbin:$PATH
+
+# Load autocompletions
+autoload -U compinit && compinit

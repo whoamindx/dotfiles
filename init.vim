@@ -7,7 +7,7 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'junegunn/fzf.vim'
 Plug 'matze/vim-move'
-Plug 'mxw/vim-jsx'
+Plug 'maxmellon/vim-jsx-pretty'
 Plug 'pangloss/vim-javascript'
 Plug 'posva/vim-vue'
 Plug 'scrooloose/nerdcommenter'
@@ -21,14 +21,14 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'w0rp/ale'
+Plug 'dense-analysis/ale'
 Plug 'xuyuanp/nerdtree-git-plugin'
 call plug#end()
 
 " ALE
-let g:ale_fixers = {
-\  '*': ['prettier', 'eslint'],
-\}
+"let g:ale_fixers = {
+"\  '*': ['eslint', 'prettier'],
+"\}
 let g:ale_fix_on_save = 1
 
 " Use deoplete.
