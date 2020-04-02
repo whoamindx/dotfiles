@@ -91,7 +91,7 @@ map <leader>z :bp<CR>
 map <leader>x :bn<CR>
 
 " Airline
-let g:airline_theme='monokai_tasty'
+let g:airline_theme='night_owl'
 let g:airline#extensions#tabline#enabled=1
 let g:airline#extensions#ale#enabled=1
 let g:ale_sign_column_always=0
@@ -235,4 +235,3 @@ call NERDTreeHighlightFile('gitconfig', 'Gray', 'none', '#686868', '#151515')
 call NERDTreeHighlightFile('gitignore', 'Gray', 'none', '#686868', '#151515')
 call NERDTreeHighlightFile('bashrc', 'Gray', 'none', '#686868', '#151515')
 call NERDTreeHighlightFile('bashprofile', 'Gray', 'none', '#686868', '#151515')
-
