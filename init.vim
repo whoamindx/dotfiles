@@ -14,7 +14,7 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree'
 Plug 'sheerun/vim-polyglot'
 Plug 'shime/vim-livedown'
-Plug 'skielbasa/vim-material-monokai'
+Plug 'patstockwell/vim-monokai-tasty'
 Plug 'ternjs/tern_for_vim', { 'do': 'npm install && npm install -g tern' }
 Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-fugitive'
@@ -26,9 +26,10 @@ Plug 'xuyuanp/nerdtree-git-plugin'
 call plug#end()
 
 " ALE
-"let g:ale_fixers = {
-"\  '*': ['eslint', 'prettier'],
-"\}
+let g:ale_fixers = {
+\   '*': ['remove_trailing_lines', 'trim_whitespace'],
+\   'javascript': ['prettier', 'eslint'],
+\}
 let g:ale_fix_on_save = 1
 
 " Use deoplete.
@@ -38,7 +39,7 @@ let g:python3_host_prog = '/usr/local/bin/python3'
 " TernJS
 let g:tern#arguments = ["--no-port-file"]
 
-colorscheme material-monokai
+colorscheme vim-monokai-tasty
 
 syntax on
 filetype plugin on
@@ -90,7 +91,7 @@ map <leader>z :bp<CR>
 map <leader>x :bn<CR>
 
 " Airline
-let g:airline_theme='night_owl'
+let g:airline_theme='monokai_tasty'
 let g:airline#extensions#tabline#enabled=1
 let g:airline#extensions#ale#enabled=1
 let g:ale_sign_column_always=0
